@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="main-window">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,10 +7,10 @@
     <title>Document</title>
     <link href="../public/stylesheets/style.css" rel="stylesheet">
 </head>
-<body>
+<body class="app">
     <h1>Welcome to the albums page!</h1>
     <% for(x of albumsData) { %>
-    <li>
+    <li class="active">
         <span style="font-weight: 600">Album:</span> <a href="/albums/<%=x.id%>"><%= x.name %> </a> <span style="font-weight: 600">Artist:</span> <%=x.artist%>
     </li>
     <% } %> 

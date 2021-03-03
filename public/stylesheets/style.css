@@ -1,8 +1,111 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+* {
+  margin: 10px;
+  padding: 1px;
+  box-sizing: border-box;
 }
 
-a {
-  color: #00B7FF;
+body {
+  font-family: 'Lato', sans-serif;
+  color: rgba(153, 153, 153, .7);
 }
+
+
+a {
+  font-size: 14px;
+  text-decoration: none;
+  color: rgba(153, 153, 153, .7);
+  transition: color .5s;
+}
+
+a:hover {
+  color: #fff;
+}
+
+/* UTILITIES */
+
+.txt-center {
+  text-align: center;
+}
+
+ul.h-list {
+  display: flex;
+  align-items: center;
+  list-style: none
+}
+
+ul.h-list.center {
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+ul.h-list.center li {
+  margin: 10px 20px;
+}
+
+ul.v-list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 20px 0;
+}
+
+ul.v-list li {
+  margin: 5px 0;
+}
+
+.d-flex.vertical-center {
+  align-items: center;
+}
+
+.img-responsive {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* BUTTONS */
+
+.btn {
+  cursor: pointer;
+  border: 1px solid transparent;
+  padding: 15px 40px;
+}
+
+.btn-outline {
+  border-radius: 40px;
+  color: #fff;
+  border:solid 1px;
+  transition: transform .3s;
+}
+
+.btn-outline:hover {
+  transform: scale(1.1);
+}
+
+/* APP */
+
+.app {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* MAIN WINDOW */
+
+.main-window {
+  flex-grow: 1;
+  display: flex;
+  background: #141921;
+}
+
+/* NAVBAR LEFT */
+
+.navbar-left {
+  display: flex;
+  flex-basis: 230px;
+  flex-direction: column;
+  padding-top: 20px;
+  background: #000;
+}
+
+/* NAVBAR LEFT MENU */
