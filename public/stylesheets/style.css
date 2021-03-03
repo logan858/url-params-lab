@@ -16,9 +16,7 @@ a {
   color: rgba(153, 153, 153, .7);
   transition: color .5s;
 }
-h1 {
-  display: block;
-}
+
 a:hover {
   color: #fff;
 }
@@ -99,4 +97,3 @@ ul.v-list li {
   display: flex;
   background: #141921;
 }
-
