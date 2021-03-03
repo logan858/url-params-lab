@@ -7,14 +7,15 @@
     <title>Document</title>
     <link href="/public/stylesheets/style.css" rel="stylesheet">
 </head>
-<body >
-    <h1>Show page:</h1>
+<body>
+    <h1>details page:</h1>
     
-    <%= x.artist %> : <%= x.name %>
-    <% for(let y of x.tracks) { %>
-        <li>
-            <a href="/albums/<%=x.id%>/<%=y.id%>"><%=y.name%></a>
-        </li>
-    <% } %>
+    <li>
+        Track name: <%= foundName %>
+    </li>
+    <li>
+        Runtime: <%= foundRT %>
+    </li>
+    
 </body>
 </html>

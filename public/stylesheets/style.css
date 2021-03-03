@@ -16,7 +16,9 @@ a {
   color: rgba(153, 153, 153, .7);
   transition: color .5s;
 }
-
+h1 {
+  display: block;
+}
 a:hover {
   color: #fff;
 }
@@ -98,14 +100,3 @@ ul.v-list li {
   background: #141921;
 }
 
-/* NAVBAR LEFT */
-
-.navbar-left {
-  display: flex;
-  flex-basis: 230px;
-  flex-direction: column;
-  padding-top: 20px;
-  background: #000;
-}
-
-/* NAVBAR LEFT MENU */
