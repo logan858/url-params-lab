@@ -1,7 +1,4 @@
-module.exports = {
-    getAll,
-    getTracks
-}
+
 
 let albumsArray = [
     {id: "a0", name: "Thriller", artist: "Michael Jackson", tracks: [
@@ -42,3 +39,9 @@ let albumsArray = [
       }
     }
   }
+
+  module.exports = {
+    getAll,
+    getTracks,
+    albumsArray
+}
